@@ -23,7 +23,7 @@ function currentLine(line) {
       str += " " + (i+1) + ". " + line[i] + ",";
     }
   } else {
-    return "The line is currently empty";
+    return "The line is currently empty.";
   }
   return str.slice(0, -1);
   //return str;
