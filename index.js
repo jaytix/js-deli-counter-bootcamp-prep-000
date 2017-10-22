@@ -16,11 +16,11 @@ function nowServing(arr){
 }
 
 function currentLine(line) {
-  var str = "The line is currently: ";
+  var str = "The line is currently:";
 
   if (line.length > 0) {
     for (var i = 0; i < line.length; i++) {
-      str += (i+1) + ". " + line[i] + ",";
+      str += " " + (i+1) + ". " + line[i] + ",";
     }
   } else {
     return "The line is currently empty";
