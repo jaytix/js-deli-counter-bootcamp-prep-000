@@ -20,7 +20,7 @@ function currentLine(line) {
 
   if (line.length > 0) {
     for (var i = 0; i < line.length; i++) {
-      str += line.length + ". " + line[i] + ",";
+      str += i + ". " + line[i] + ",";
     }
   } else {
     return "The line is currently empty";
