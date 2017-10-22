@@ -25,6 +25,6 @@ function currentLine(line) {
   } else {
     return "The line is currently empty";
   }
-  str.slice(0, -1);
-  return str;
+  return str.slice(0, -1);
+  //return str;
 }
